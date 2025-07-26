@@ -23,8 +23,7 @@ Returns servo1–servo6 as JSON only if status = 1.
 After fetching, it automatically sets status = 0.
 
 
-4-Reset Status Manually (update_status.php)
-Optional.
+4-Reset Status Manually (update_status.php).
 
 Sets status = 0 in the run table.
 
