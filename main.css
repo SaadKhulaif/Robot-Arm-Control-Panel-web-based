@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+h1 {
+    text-align: left;
+    
+}
+
+
+.motor-control {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+input[type=range] {
+    width: 300px;
+}
+
+.button-group {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.button-group button {
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+input[type=range] {
+  width: 300px;
+  height: 6px;
+  border-radius: 5px;
+  background: transparent; 
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 5px;
+  background: #ccc; 
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #3399ff;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+
+input[type=range]::-moz-range-track {
+  height: 6px;
+  background: #ccc;
+  border-radius: 5px;
+}
+
+input[type=range]::-moz-range-progress {
+  height: 6px;
+  background: #3399ff;
+  border-radius: 5px;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #3399ff;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 5px;
+  background: transparent; 
+}
+
+
+th {
+  background-color: #ddd;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.action-col {
+  width: 320px;
+  text-align: center;
+}
